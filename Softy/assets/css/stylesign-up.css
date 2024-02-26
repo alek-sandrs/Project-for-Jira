@@ -1,0 +1,84 @@
+h2 {
+  color: #9b59b6; /* Purple text */
+  text-align: center; /* Horizontal text alignment */
+  width: 100%; /* Full-width */
+}
+
+form {
+  background-color: #e6e6fa; /* Light purple background */
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 170px 0 auto; /* Center the form on the page */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+  flex: 1; /* This pushes the footer to the bottom */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+  background-color: #f0f0f0; /* Adjust styling as needed */
+  padding: 15px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #9b59b6; /* Purple border */
+  border-radius: 3px;
+  background-color: #e6e6fa; /* Light purple background */
+}
+
+input[type="submit"] {
+  background-color: #9b59b6; /* Purple button */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #5d2b6d; /* Dark purple button on hover */
+}
+
+/* Дополнительные стили */
+
+.form-container {
+  /* Центрирование формы на странице */
+  margin: 0 auto;
+}
+
+.form-title {
+  /* Заголовок формы */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-input {
+  /* Поля ввода */
+  margin-bottom: 10px;
+}
+
+.form-button {
+  /* Кнопка "Sign Up" */
+  width: 100%;
+}

@@ -1,0 +1,72 @@
+.form-container {
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #9b59b6;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.username,
+.password {
+  background-color: #e6e6fa;
+}
+
+.button {
+  background-color: #9b59b6;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  background-color: #9b59b6;
+}
+
+.err-cover {
+  background-color: #f8d7da; /* Set background color to a light red */
+  border: 1px solid #f5c6cb; /* Add a light red border */
+  padding: 10px; /* Add some padding around the content */
+  margin-bottom: 30px; /* Add some space below the input */
+}
+
+.err {
+  color: #721c24; /* Set text color to a dark red */
+  font-size: 16px; /* Set font size to 16 pixels */
+  font-weight: bold; /* Set font weight to bold */
+  margin: 0; /* Remove any margin around the text */
+}
+
+.msg-cover {
+  background-color: #d4edda; /* Set background color to a light green */
+  border: 1px solid #c3e6cb; /* Add a light green border */
+  padding: 10px; /* Add some padding around the content */
+  margin-bottom: 30px; /* Add some space below the input */
+}
+
+.msg {
+  color: #155724; /* Set text color to a dark green */
+  font-size: 16px; /* Set font size to 16 pixels */
+  font-weight: bold; /* Set font weight to bold */
+  margin: 0; /* Remove any margin around the text */
+}
+
+.div-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+}
